@@ -1,0 +1,294 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Gilroy-Bold", sans-serif;
+  color: #515151;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #515151;
+  font-weight: bold;
+}
+a:hover {
+  opacity: 0.7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #151515;
+  font-weight: bold;
+}
+/********************************/
+/********** Typography **********/
+/********************************/
+.text-medium {
+  font-size: 24px !important;
+}
+.text-large {
+  font-size: 28px !important;
+}
+.text-xlarge {
+  font-size: 50px !important;
+}
+.text-xxlarge {
+  font-size: 60px !important;
+}
+.text-larger {
+  font-size: 80px !important;
+}
+@media (max-width: 768px) {
+  .text-large {
+    font-size: 24px !important;
+  }
+  .text-xlarge {
+    font-size: 40px !important;
+  }
+  .text-xxlarge {
+    font-size: 50px !important;
+  }
+  .text-larger {
+    font-size: 60px !important;
+  }
+}
+/********************************/
+/********** colors: BG **********/
+/********************************/
+.text-success {
+  color: #559268 !important;
+}
+.text-white {
+  color: #fff !important;
+}
+.text-black {
+  color: #515151 !important;
+}
+.bg-success {
+  background-color: #559268 !important;
+}
+.bg-gray {
+  background-color: #f8f8f8 !important;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+.bg-black {
+  background-color: #515151 !important;
+}
+/*************************************/
+/********** Margin: Padding **********/
+/*************************************/
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mr-0 {
+  margin-right: 0 !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+.mr-5 {
+  margin-right: 5px !important;
+}
+
+.ml-5 {
+  margin-left: 5px !important;
+}
+.mt-10 {
+  margin-top: 10px !important;
+}
+.mr-10 {
+  margin-right: 10px !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+.mt-15 {
+  margin-top: 15px !important;
+}
+.mr-15 {
+  margin-right: 15px !important;
+}
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+.ml-15 {
+  margin-left: 15px !important;
+}
+.mt-20 {
+  margin-top: 20px !important;
+}
+.mr-20 {
+  margin-right: 20px !important;
+}
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+.ml-20 {
+  margin-left: 20px !important;
+}
+.m-0 {
+  margin: 0 !important;
+}
+.m-10 {
+  margin: 10px !important;
+}
+.m-15 {
+  margin: 15px !important;
+}
+.m-20 {
+  margin: 20px !important;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.pt-0 {
+  padding-top: 0 !important;
+}
+.pr-0 {
+  padding-right: 0 !important;
+}
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+.pl-0 {
+  padding-left: 0 !important;
+}
+.pr-5 {
+  padding-right: 5px !important;
+}
+.pl-5 {
+  padding-left: 5px !important;
+}
+.pt-10 {
+  padding-top: 10px !important;
+}
+.pr-10 {
+  padding-right: 10px !important;
+}
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+.pl-10 {
+  padding-left: 10px !important;
+}
+.pt-15 {
+  padding-top: 15px !important;
+}
+.pr-15 {
+  padding-right: 15px !important;
+}
+.pb-15 {
+  padding-bottom: 15px !important;
+}
+.pl-15 {
+  padding-left: 15px !important;
+}
+.pt-20 {
+  padding-top: 20px !important;
+}
+.pr-20 {
+  padding-right: 20px !important;
+}
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+.pl-20 {
+  padding-left: 20px !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.p-10 {
+  padding: 10px !important;
+}
+.p-15 {
+  padding: 15px !important;
+}
+.p-20 {
+  padding: 20px !important;
+}
+
+/*****************************/
+/********** buttons ***********/
+/*****************************/
+.btn {
+  padding: 10px 25px;
+  height: 48px;
+  border-radius: 8px;
+  filter: drop-shadow(0px 2px 3.5px rgba(68, 68, 68, 0.02));
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.btn-primary,
+a.btn-primary {
+  color: #fff !important;
+  border: 1px solid #000 !important;
+  background-color: #000000 !important;
+}
+.btn-primary:hover,
+a.btn-primary:hover {
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  background-color: transparent !important;
+}
+.btn-outline-primary,
+a.btn-outline-primary {
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  background-color: transparent !important;
+}
+.btn-outline-primary:hover,
+a.btn-outline-primary:hover {
+  color: #fff !important;
+  border: 1px solid #000 !important;
+  background-color: #000000 !important;
+}
+.btn-success {
+  background-color: #559268 !important;
+  border: 1px solid #559268 !important;
+  color: #fff !important;
+}
+/*************************************/
+/********** common classes ***********/
+/*************************************/
+section {
+  padding: 50px 0;
+}
+.card-hover:hover {
+  border-bottom: 3px solid green;
+}
